@@ -11,7 +11,7 @@ public class StampCalculatorTest {
     }
 
     @Test
-    @DisplayName("실습1: 주문 후 누적 스탬프 카운트 계산 탄위 테스트")
+    @DisplayName("실습1: 주문 후 누적 스탬프 카운트 계산 단위 테스트")
     public void calculateEarnedStampCountTest(){
         // TODO 여기에 테스트 케이스를 작성해주세요.
     }
