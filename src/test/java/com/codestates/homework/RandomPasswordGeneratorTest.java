@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RandomPasswordGeneratorTest {
+public class RandomPasswordGeneratorTest { // 랜덤 비밀번호 생성 로직 검사
     static String randomPassword;
 
     @BeforeAll
