@@ -8,10 +8,10 @@ import java.util.List;
 import static java.util.stream.Collectors.toList;
 
 public class RandomPasswordGenerator {
-    public static String generate(int numberOfUpperCaseLetters,
-                                  int numberOfLowerCaseLetters,
-                                  int numberOfNumeric,
-                                  int numberOfSpecialChars) {
+    public static String generate(int numberOfUpperCaseLetters, // 생성될 패스워드 문자열에서 알파벳 대문자의 개수
+                                  int numberOfLowerCaseLetters, // 생성될 패스워드 문자열에서 알파벳 소문자의 개수
+                                  int numberOfNumeric, // 생성될 패스워드 문자열에서 0 이상인 숫자의 개수
+                                  int numberOfSpecialChars) { // 생성될 패스워드 문자열에서 특수문자의 개수
         String upperCaseLetters = RandomStringUtils.random(numberOfUpperCaseLetters, 65, 90, true, false);
         String lowerCaseLetters = RandomStringUtils.random(numberOfLowerCaseLetters, 97, 122, true, false);
         String numbers = RandomStringUtils.randomNumeric(numberOfNumeric);
